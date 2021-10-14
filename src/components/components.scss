@@ -1,0 +1,17 @@
+.dropdown-menu {
+    background-color: #3c4153 !important;
+    right: 0 !important;
+    left: auto !important;
+    & a {
+        color: #fff !important;
+    }
+}
+.dropdown {
+    width: 100%;
+}
+.dropdown-toggle {
+    padding: 0 !important;
+    &:after {
+        display: none !important;
+    }
+}
